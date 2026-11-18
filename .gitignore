@@ -1,0 +1,50 @@
+# Python caches and build products
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local environments and credentials
+.env
+*.env.local
+.venv/
+venv/
+env/
+.conda_env/
+
+# Machine-local editor and workflow state
+.vscode/
+.idea/
+.agents/
+.aris/
+AGENTS.md
+
+# Local datasets, models, indexes, logs, and run artifacts
+Input/
+Output/
+models/
+logs/
+experiments/results/
+ccfa-workfiles/writing/
+
+# Third-party baseline checkouts and local-only reproduction code
+third_party/
+local_baselines/
+baselines/official_adapters/
+baselines/controlled/
+baselines/common/*
+!baselines/common/__init__.py
+!baselines/common/mmqa_metrics.py
+scripts/baselines/
+patches/official/
+testCode/Baselines/
+testCode/test_mg2rag*.py
+testCode/test_qd*.py
+testCode/test_mmqa_baselines.py
+testCode/Evaluation/*baseline*
+testCode/Evaluation/*qd*
+experiments/configs/*baseline*
+experiments/configs/*mg2rag*
+experiments/configs/*qd*
+docs/*baseline*

@@ -1,0 +1,17 @@
+{
+  "protocol": "mmqa_cor_simple_current469_v1",
+  "questions": "Input/datasets/multimodalqa/corprorag_v2_strict/mmqa_strict_crossmodal_heldout469.json",
+  "corpus": "Input/datasets/multimodalqa/corprorag_v2_strict/mmqa_strict_crossmodal_dev569_indexed_corpus.json",
+  "index": "Output/indexes/multimodalqa_mmqa_strict_crossmodal_dev569_full_kg",
+  "count": 469,
+  "indexed_corpus_count": 9421,
+  "indexed_image_count": 3975,
+  "model": "qwen3-vl-32b-instruct",
+  "metric": "local_mmqa_set_v1_not_official",
+  "sha256": {
+    "Input/datasets/multimodalqa/corprorag_v2_strict/mmqa_strict_crossmodal_dev569_indexed_corpus.json": "7f918d0b7564e0e275ed5b3856dfaca209615d7cfdf9eef99097441b38af5153",
+    "Input/datasets/multimodalqa/corprorag_v2_strict/mmqa_strict_crossmodal_heldout469.json": "c151745c3fb8711308b18f0363f3e6cc8bc6df9728767eae10834f97aa66e73e",
+    "Output/indexes/multimodalqa_mmqa_strict_crossmodal_dev569_full_kg/vdb_images.json": "b341f0ad5a03236161f0850b01d978a9883dcfcf35f1d14afc33ddb69022872c",
+    "Output/indexes/multimodalqa_mmqa_strict_crossmodal_dev569_full_kg/vdb_chunks.json": "8b1516580862d43c8593e9d2fc460f165ecbb65a553fbb59cdc87c673098cc39"
+  }
+}
